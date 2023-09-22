@@ -1,0 +1,37 @@
+{
+	"@type":"Hierarchy",
+	"Name":"F",
+	"Elements":
+	[
+		{
+			"Name":"A.B",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B.C",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"C.D",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"D.E",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"B.C",
+			"ComponentName":"C.D",
+			"Weight":-1
+		},
+		{
+			"ParentName":"C.D",
+			"ComponentName":"D.E",
+			"Weight":2
+		}
+	],
+	"Subsets@Code.links":[]
+}

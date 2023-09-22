@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"C",
+	"Expression":"TM1FILTERBYLEVEL(TM1SUBSETALL(B),1 )\n"
+}

@@ -1,0 +1,52 @@
+{
+	"@type":"Process",
+	"Name":"G",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"G.ti",
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForClient":"A",
+		"dataSourceNameForServer":"A",
+		"view":"A"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"P0",
+			"Prompt":"A Number?",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P1",
+			"Prompt":"A String?",
+			"Value":"0",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"A",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"B",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Value",
+			"Type":"Numeric",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

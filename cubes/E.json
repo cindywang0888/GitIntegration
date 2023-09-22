@@ -1,0 +1,18 @@
+{
+	"@type":"Cube",
+	"Name":"E",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('B')"
+		},
+		{
+			"@id":"Dimensions('C')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"E.views/A.json",
+		"E.views/C.json"
+	]
+}
